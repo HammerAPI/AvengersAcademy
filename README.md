@@ -1,6 +1,6 @@
 ## Avengers Academy
 
-## Simulates a school records system to demonstrate constructing objects and lists of objects from text files
+Simulates a school records system to demonstrate constructing objects and lists of objects from text files
 
 
 ### Overview
@@ -14,9 +14,11 @@ A Student has attributes such as first and last names, student ID, enrolled cour
 A Course has attributes such as a course title, course ID, number of credit hours, and instructor.
 Each text file is spliced by commas ( , ) so that a file scanner can read each attribute one at a time via delimiter.
 Each attribute is read and stored in the appropriate variable, and then a new instance of either Student or Course is created.
+
 For a new Student, the program must check to see if the Student is unenrolled. If so, a "Not Enrolled" tag is applied and the student's grade is defaulted to 0 as a placeholder.
 In addition, the program must check to see if the Student already exists within the list. If so, the new courses and grades (if there are any) must be added as additional attributes to the existing student.
 Through these checks, no duplicate students appear in the list, and any recurring appearances within the text file will not cause the program to add additional unnecessary information.
+
 For a new Course, the process is much simpler. The program simply checks to see if the Course already exists in the list. If not, the new Course is added to the list.
 After both lists have been built, the program cycles through the process of adding each existing Student to the Course he/she is enrolled in.
 Finally, the program prompts the user with the selection screen, and from there the user can choose any number of options, listed below.
